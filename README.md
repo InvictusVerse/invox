@@ -24,6 +24,13 @@ Invox features a built-in, multi-threaded download manager designed for music ho
 ---
 
 ## ✨ Full Feature Overview
+### 🎶 Music Discovery & Management
+* **YouTube Music integration** for discovering trending and personalized content.
+* **Advanced search** with intelligent suggestions and filters.
+* **Browse pages** with curated playlists, albums, and recommendations.
+* **Artist and album pages** with complete metadata.
+* **Playlist management** - create, edit, and organize collections.
+* **Local library support** for managing downloaded content alongside streams.
 
 ### 🎚️ Advanced Audio Processing
 * **10-band professional equalizer** with ISO frequencies.
@@ -37,14 +44,6 @@ Invox features a built-in, multi-threaded download manager designed for music ho
 * **Audio normalization** and intelligent silence skipping.
 * **Bass boost and customization**.
 * **Real-time filter chain generation**.
-
-### 🎶 Music Discovery & Management
-* **YouTube Music integration** for discovering trending and personalized content.
-* **Advanced search** with intelligent suggestions and filters.
-* **Browse pages** with curated playlists, albums, and recommendations.
-* **Artist and album pages** with complete metadata.
-* **Playlist management** - create, edit, and organize collections.
-* **Local library support** for managing downloaded content alongside streams.
 
 ### 📝 Lyrics & Translations
 * **Synchronized lyrics** from multiple sources (LrcLib, KuGou).
