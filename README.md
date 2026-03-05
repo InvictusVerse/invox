@@ -75,7 +75,7 @@ Invox features a built-in, multi-threaded download manager designed for music ho
 |:---:|:---:|
 | <img src="assets/discover.png" width="450"/> | <img src="assets/home.png" width="450"/> |
 
-| The Playlist Creator | The Player & Lyrics |
+| Playlists | The Player & Lyrics |
 |:---:|:---:|
 | <img src="assets/playlist.png" width="450"/> | <img src="assets/player.png" width="450"/> |
 
