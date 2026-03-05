@@ -93,8 +93,12 @@ Invox features a built-in, multi-threaded download manager designed for music ho
 
 ---
 
+## 💬 Discussions & Ideas
+Have an awesome idea for a new feature? Want to share how you are using Invox, or just talk about music tech?
+Join the conversation in our **[Discussions](../../discussions)** tab! I am always looking for fresh ideas on what to build next.
+
 ## 🐛 Bug Reports & Feedback
-Found a bug, have a feature request, or just want to share your thoughts? 
+Found a bug or something not working right? 
 Please open an issue in the **[Issues](../../issues)** tab of this repository. If you are reporting a bug, please include your Windows version and a brief description of the problem so I can fix it in the next update!
 
 ---
@@ -103,7 +107,7 @@ Please open an issue in the **[Issues](../../issues)** tab of this repository. I
 **Created by Invictus**
 I am a 20-year-old developer, and Invox is my very first app! I built this project by pushing the limits of the coding knowledge I have acquired so far, combined with the power of AI to help bridge the gaps. It has been an incredible learning journey bringing this idea to life.
 
-💡 **Tip:** I am constantly looking to learn and build more! If you have any awesome ideas for new features, tools, or entirely new apps you would love to see built, drop a suggestion in the Issues tab!
+💡 **Tip:** I am constantly looking to learn and build more! If you have any awesome ideas for new features, tools, or entirely new apps you would love to see built, drop a suggestion in the Discussions or Issues tab!
 
 ---
 
