@@ -1,16 +1,21 @@
-# 🎵 Invox
-**The ultimate desktop music engine. Seamlessly mix local files and cloud streams with smart playlists, synced lyrics, and a stunning dynamic UI.**
-
-Invox is a powerful desktop audio player engineered with a high-performance **C++/Qt backend** and a beautiful, dynamic **React frontend**. Designed for audiophiles and music curators, it effortlessly merges your local files with cloud streaming to create a unified, uninterrupted listening experience.
-
-### ⬇️ [Download the Latest Version for Windows](../../releases/latest)
+<div align="center">
+  <img src="assets/app.ico" width="128" height="128" alt="Invox Logo"/>
+  <h1>Invox</h1>
+  <b>The ultimate desktop music engine. Seamlessly mix local files and cloud streams with smart playlists, synced lyrics, and a stunning dynamic UI.</b>
+  <br><br>
+  <a href="../../releases/latest">
+    <img src="https://img.shields.io/badge/🚀_DOWNLOAD_FOR_WINDOWS-V1.0.0-FF0055?style=for-the-badge&logo=windows&logoColor=white&labelColor=000000" height="50" alt="Download Invox"/>
+  </a>
+</div>
 
 ---
+
+Invox is a powerful desktop audio player engineered with a high-performance **C++/Qt backend** and a beautiful, dynamic **React frontend**. Designed for audiophiles and music curators, it effortlessly merges your local files with cloud streaming to create a unified, uninterrupted listening experience.
 
 ## 🪄 The Crown Jewel: Magic Playlist Importer
 Forget manually searching for hundreds of songs. Invox features a custom-built, highly intelligent **Text-to-Playlist Engine**. 
 
-Just click the **Magic Wand** icon in the Playlist toolbar and choose txt file and let Invox do the heavy lifting:
+Just click the **Magic Wand** icon in the Playlist toolbar, choose your `.txt` file, and let Invox do the heavy lifting:
 * **The Text File Trick:** Create a simple `.txt` file with a serial list of the songs you want. Drop it into Invox, and the C++ backend will automatically strip out numbering (e.g., "1.", "02 -"), noise characters, and formatting.
 * **Auto-Discovery:** The engine instantly searches the cloud for every cleaned track name and automatically compiles them into a fully playable, ready-to-download playlist.
 * **Frictionless Management:** Drag, drop, and reorganize massive hybrid queues (mixing local `.mp3`s and streamed tracks) in milliseconds.
@@ -24,6 +29,7 @@ Invox features a built-in, multi-threaded download manager designed for music ho
 ---
 
 ## ✨ Full Feature Overview
+
 ### 🎶 Music Discovery & Management
 * **YouTube Music integration** for discovering trending and personalized content.
 * **Advanced search** with intelligent suggestions and filters.
@@ -80,7 +86,7 @@ Invox features a built-in, multi-threaded download manager designed for music ho
 ---
 
 ## 🚀 Download & Installation (Windows)
-1. Navigate to the **[Releases](../../releases)** tab on the right side of this page.
+1. Click the vibrant **Download** button at the top of this page, or navigate to the **[Releases](../../releases)** tab.
 2. Download the latest `Invox-Setup.exe`.
 3. Run the installer and follow the prompts.
 4. Launch Invox and start building your ultimate playlist!
@@ -98,3 +104,8 @@ Please open an issue in the **[Issues](../../issues)** tab of this repository. I
 I am a 20-year-old developer, and Invox is my very first app! I built this project by pushing the limits of the coding knowledge I have acquired so far, combined with the power of AI to help bridge the gaps. It has been an incredible learning journey bringing this idea to life.
 
 💡 **Tip:** I am constantly looking to learn and build more! If you have any awesome ideas for new features, tools, or entirely new apps you would love to see built, drop a suggestion in the Issues tab!
+
+---
+
+### ⚖️ Disclaimer
+This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any way associated with YouTube, Google LLC or any of its affiliates and subsidiaries. Any trademark, service mark, trade name, or other intellectual property rights used in this project are owned by the respective owners.
