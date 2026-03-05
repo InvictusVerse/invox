@@ -1,32 +1,84 @@
 # 🎵 Invox
 **The ultimate desktop music engine. Seamlessly mix local files and cloud streams with smart playlists, synced lyrics, and a stunning dynamic UI.**
 
-Invox is a powerful desktop audio player engineered with a high-performance **C++/Qt backend** and a beautiful, dynamic **React frontend**. Designed for audiophiles and music curators, it seamlessly merges your local files with cloud streaming to create a unified, uninterrupted listening experience.
+Invox is a powerful desktop audio player engineered with a high-performance **C++/Qt backend** and a beautiful, dynamic **React frontend**. Designed for audiophiles and music curators, it effortlessly merges your local files with cloud streaming to create a unified, uninterrupted listening experience.
 
-## 🌟 Highlight: The Advanced Playlist Creator
-At the heart of Invox is a custom-built, highly intelligent **Playlist Creator**. Unlike standard players, Invox is built to handle complex curation effortlessly:
-* **Hybrid Queuing:** Seamlessly mix local `.mp3`/`.flac` files and streamed cloud tracks into a single, cohesive playlist.
-* **Drag-and-Drop Architecture:** A frictionless React interface designed for building, reordering, and managing massive playlists in seconds.
-* **Smart Sorting:** Advanced internal mapping ensures your music flows perfectly, keeping your mood and genres aligned from track 1 to 1,000.
+### ⬇️ [Download the Latest Version for Windows](../../releases/latest)
 
-## ✨ Under The Hood: Key Features
-Invox isn't just a UI; it is powered by a robust, custom-engineered backend:
-* **Audiophile Playback:** Powered by `libmpv` with a fully integrated, custom **Audio Equalizer** for precise sound tuning.
-* **Smart Cloud Streaming:** Native integration with `Innertube` and `Piped` APIs for lightning-fast, ad-free track retrieval.
-* **Uninterrupted Listening:** A built-in **SponsorBlock** engine intelligently detects and skips non-music segments in streamed tracks.
-* **Immersive Synced Lyrics:** Real-time, synchronized lyrics powered by `LrcLib` parsing, completely integrated into the player view.
-* **The "Live Customizer":** A deep UI customization engine allowing users to dynamically tweak themes, colors, and layouts to match their exact aesthetic preferences.
-* **Robust Offline Mode:** A dedicated background Download Manager and caching system so your music is always ready.
+---
+
+## 🪄 The Crown Jewel: Magic Playlist Importer
+Forget manually searching for hundreds of songs. Invox features a custom-built, highly intelligent **Text-to-Playlist Engine**. 
+
+Just click the **Magic Wand** icon in the Playlist toolbar and choose txt file and let Invox do the heavy lifting:
+* **The Text File Trick:** Create a simple `.txt` file with a serial list of the songs you want. Drop it into Invox, and the C++ backend will automatically strip out numbering (e.g., "1.", "02 -"), noise characters, and formatting.
+* **Auto-Discovery:** The engine instantly searches the cloud for every cleaned track name and automatically compiles them into a fully playable, ready-to-download playlist.
+* **Frictionless Management:** Drag, drop, and reorganize massive hybrid queues (mixing local `.mp3`s and streamed tracks) in milliseconds.
+
+## 📥 Ultimate Download & Conversion Engine
+Invox features a built-in, multi-threaded download manager designed for music hoarders:
+* **Format Conversion:** Download tracks or entire albums and convert them on-the-fly to **MP3, FLAC (Lossless), WAV, AAC, M4A, or OPUS**.
+* **Batch Container Downloads:** Download massive playlists or an artist's entire discography with one click.
+* **Metadata Mastery:** Automatically embeds high-resolution album artwork, artist data, and track information directly into the downloaded files.
+
+---
+
+## ✨ Full Feature Overview
+
+### 🎚️ Advanced Audio Processing
+* **10-band professional equalizer** with ISO frequencies.
+* **Preset library** (Bass Boost, Voice, Pop, Rock, etc.).
+* **Spatial audio effects**:
+  * 8D Audio (Auto-Pan).
+  * SOFA-based HRTF processing.
+  * 3D spatial effects.
+  * Virtualization controls.
+* **Reverb effects** with multiple presets.
+* **Audio normalization** and intelligent silence skipping.
+* **Bass boost and customization**.
+* **Real-time filter chain generation**.
+
+### 🎶 Music Discovery & Management
+* **YouTube Music integration** for discovering trending and personalized content.
+* **Advanced search** with intelligent suggestions and filters.
+* **Browse pages** with curated playlists, albums, and recommendations.
+* **Artist and album pages** with complete metadata.
+* **Playlist management** - create, edit, and organize collections.
+* **Local library support** for managing downloaded content alongside streams.
+
+### 📝 Lyrics & Translations
+* **Synchronized lyrics** from multiple sources (LrcLib, KuGou).
+* **Real-time lyric display** with playback synchronization.
+* **Multi-language support** for lyrics.
+* **Automatic lyrics fetching** based on song metadata.
+* **Built-in translation service** for instant translation of lyrics.
+
+### 🎨 User Interface
+* **Modern, responsive design** built with React 18 and Tailwind CSS.
+* **Real-time color picker** for the progress bar (supports wavy and normal styles).
+* **Dark/Light mode support**.
+* **Smooth animations** with Framer Motion.
+* **Keyboard shortcuts** for power users.
+* **Responsive layout** that works beautifully on any screen size.
+* **Customizable appearance settings** via the Live Customizer.
+
+---
 
 ## 📸 Screenshots
 
-| Discovery & Home | The Playlist Creator |
+| Discovery | Home Dashboard |
 |:---:|:---:|
-| <img src="assets/discover.png" width="450"/> | <img src="assets/playlist.png" width="450"/> |
+| <img src="assets/discover.png" width="450"/> | <img src="assets/home.png" width="450"/> |
 
-| The Player & Lyrics | Settings & Live Customizer |
+| The Playlist Creator | The Player & Lyrics |
 |:---:|:---:|
-| <img src="assets/player.png" width="450"/> | <img src="assets/setting.png" width="450"/> |
+| <img src="assets/playlist.png" width="450"/> | <img src="assets/player.png" width="450"/> |
+
+| Settings & Live Customizer |
+|:---:|
+| <img src="assets/setting.png" width="450"/> |
+
+---
 
 ## 🚀 Download & Installation (Windows)
 1. Navigate to the **[Releases](../../releases)** tab on the right side of this page.
@@ -35,4 +87,15 @@ Invox isn't just a UI; it is powered by a robust, custom-engineered backend:
 4. Launch Invox and start building your ultimate playlist!
 
 ---
-*Built with C++, Qt6, React, and libmpv by Invictus.*
+
+## 🐛 Bug Reports & Feedback
+Found a bug, have a feature request, or just want to share your thoughts? 
+Please open an issue in the **[Issues](../../issues)** tab of this repository. If you are reporting a bug, please include your Windows version and a brief description of the problem so I can fix it in the next update!
+
+---
+
+### 👨‍💻 About the Developer
+**Created by Invictus**
+I am a 20-year-old developer, and Invox is my very first app! I built this project by pushing the limits of the coding knowledge I have acquired so far, combined with the power of AI to help bridge the gaps. It has been an incredible learning journey bringing this idea to life.
+
+💡 **Tip:** I am constantly looking to learn and build more! If you have any awesome ideas for new features, tools, or entirely new apps you would love to see built, drop a suggestion in the Issues tab!
